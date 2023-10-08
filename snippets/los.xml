@@ -28,6 +28,7 @@
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" revision="lineage-19.1" remote="lineage" />
 
   <!-- External -->
+  <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
 
   <!-- Hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" remote="lineage" />
