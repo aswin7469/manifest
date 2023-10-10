@@ -86,6 +86,7 @@
   <!-- Frameworks Repos -->
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/libs/net" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/libhardware" />
@@ -98,6 +99,7 @@
 
   <!-- Packages Repos -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/modules/Connectivity" />
 
   <!-- Prebuilts -->
 
@@ -106,4 +108,5 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/netd" />
 </manifest>
