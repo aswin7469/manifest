@@ -112,6 +112,7 @@
   <!-- Pixys Repos -->
   <project path="vendor/support" name="vendor_support" revision="thirteen" remote="pixys-main" />
   <project path="vendor/pixys" name="vendor_pixys" remote="pixys" />
+  <project path="vendor/pixys-prebuilts" name="vendor_pixys-prebuilts" remote="pixys-gitlab" />
 
   <!-- Prebuilts -->
 
