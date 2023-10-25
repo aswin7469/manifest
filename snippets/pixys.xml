@@ -3,7 +3,7 @@
 
   <remote name="pixys"
           fetch="https://github.com/PixysOS-Beta/"
-          revision="r11" />
+          revision="fourteen" />
 
   <remote name="pixys-main"
           fetch="https://github.com/PixysOS/"
