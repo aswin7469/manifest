@@ -108,6 +108,9 @@
   <!-- Packages Repos -->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/apps/Nfc" />
+
 
   <!-- Prebuilts -->
 
