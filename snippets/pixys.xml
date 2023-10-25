@@ -90,19 +90,6 @@
   <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="pixys-main" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="pixys-main" />
 
-  <!-- NQ-NFC Repos -->
-  <project path="vendor/nxp/nfc" name="vendor_nxp_nfc" remote="pixys-main" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_opensource_interfaces_nfc" remote="pixys-main" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_commonsys_external_libnfc-nci" remote="pixys-main" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_commonsys_frameworks" remote="pixys-main" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" remote="pixys" revision="udc" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="vendor_nxp_opensource_pn5xx_halimpl" remote="pixys-main" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="vendor_nxp_opensource_pn5xx_hidlimpl" remote="pixys-main" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_sn100x_halimpl" remote="pixys-main" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="vendor_nxp_opensource_sn100x_hidlimpl" remote="pixys-main" />
-  <project path="vendor/nxp/secure_element" name="vendor_nxp_secure_element" remote="pixys-main" />
-  <project path="vendor/nxp/secure_element_extns" name="vendor_nxp_secure_element_extns" remote="pixys-main" />
-
   <!-- Qcom Hals -->
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pixys-main" />
 
