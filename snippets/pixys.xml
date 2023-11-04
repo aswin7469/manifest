@@ -66,6 +66,7 @@
   <project path="external/mksh" name="external_mksh" remote="pixys" />
 
   <!-- Frameworks Repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="pixys" />
   <project path="frameworks/base" name="frameworks_base" remote="pixys" />
   <project path="frameworks/native" name="frameworks_native" remote="pixys" />
   <project path="frameworks/libs/net" name="frameworks_libs_net" remote="pixys" />
