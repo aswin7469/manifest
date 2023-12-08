@@ -3,7 +3,7 @@
 
   <remote name="pixys"
           fetch="https://github.com/PixysOS-Beta/"
-          revision="fourteen" />
+          revision="udc-qpr1" />
 
   <remote name="pixys-main"
           fetch="https://github.com/PixysOS/"
@@ -22,7 +22,7 @@
 
   <remote name="pixys-selfhosted-gitlab"
           fetch="http://gitlab.pixysos.com:8929/fourteen"
-          revision="fourteen" />
+          revision="udc-qpr1" />
 
   <remote name="pixys-devices"
           fetch="https://github.com/PixysOS-Devices/" />
@@ -109,7 +109,7 @@
   <project path="vendor/support" name="vendor_support" remote="pixys" />
   <project path="vendor/pixys" name="vendor_pixys" remote="pixys" />
   <project path="vendor/pixys-prebuilts" name="vendor_pixys-prebuilts" remote="pixys-gitlab" />
-  <project path="vendor/gms" name="vendor_gms" remote="pixys-selfhosted-gitlab" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms" remote="pixys-selfhosted-gitlab" />
 
   <!-- Prebuilts -->
 
