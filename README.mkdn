@@ -15,7 +15,7 @@
 **To initialize your local repository using the PixysOS trees, use a command like this** :
 
 ```bash
-repo init -u https://github.com/PixysOS/manifest -b fourteen-v2
+repo init -u https://github.com/PixysOS/manifest -b fourteen-v3
 ```
 
 **Then to be sure to add device stuffs in local_manifest
@@ -31,7 +31,7 @@ repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
 ```bash
 
 $ . build/envsetup.sh
-$ lunch pixys_$device-ap1a-userdebug
+$ lunch pixys_$device-ap2a-userdebug
 $ m pixysrelease ( for both fastboot and ota packages)
 ```
 #

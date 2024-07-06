@@ -31,14 +31,12 @@
 
   <!-- External -->
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
-  <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="lineage" />
 
   <!-- Hardware repos -->
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage"/>
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  <project path="kernel/configs" name="android_kernel_configs" remote="lineage" />
 
   <!-- Prebuilt Stuff -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" />
