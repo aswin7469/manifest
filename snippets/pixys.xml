@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixys"
+          fetch="https://github.com/PixysOS/"
+          revision="fourteen-v3"  />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+  <remote name="pixys-gitlab"
+          fetch="https://gitlab.com/PixysOS-fourteen"
+          revision="fourteen-v3" />
+
+  <remote name="pixys-devices"
+          fetch="https://github.com/PixysOS-Devices/" />
+
+  <remote name="pixys-devices-gitlab"
+          fetch="https://gitlab.com/PixysOS-Devices/" />
+
+  <!-- General repos -->
+
+  <!-- Build Repos -->
+
+  <!-- Device Repos -->
+
+  <!-- External Repos -->
+
+  <!-- Frameworks Repos -->
+
+  <!-- Hardware repos -->
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="pixys" />
+  <project path="hardware/pixys/interfaces" name="hardware_pixys_interfaces" remote="pixys" />
+
+  <!-- CodeAurora additions -->
+
+  <!-- Qcom Hals -->
+
+  <!-- Packages Repos -->
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixys" />
+
+  <!-- Pixys Repos -->
+  <project path="vendor/support" name="vendor_support" remote="pixys" />
+  <project path="vendor/pixys" name="vendor_pixys" remote="pixys" />
+
+  <!-- Prebuilts -->
+
+  <!-- Sepolicy Repos -->
+  <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="pixys" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixys" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="fourteen-v2-legacy-um" remote="pixys" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="fourteen-v2-caf-sm8450" remote="pixys" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="fourteen-v2-caf-sm8550" remote="pixys" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixys" />
+
+  <!-- System Repos -->
+
+  <!-- Custom Hals -->
+
+</manifest>
