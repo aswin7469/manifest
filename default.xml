@@ -2,11 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-15.0.0_r21"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+	   sync-c="true" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r21"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -1063,4 +1064,12 @@
   </project>
   <!-- END open-source projects -->
 
+  <!-- Remove unused AOSP repos -->
+  <include name="snippets/remove.xml" />
+
+  <!-- Lineage repos -->
+  <include name="snippets/los.xml" />
+
+  <!-- Pixys repos -->
+  <include name="snippets/pixys.xml" />
 </manifest>
