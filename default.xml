@@ -1028,6 +1028,6 @@
   <!-- Lineage repos -->
   <include name="snippets/los.xml" />
 
-  <!-- Pixys repos -->
-  <include name="snippets/pixys.xml" />
+  <!-- Mica repos -->
+  <include name="snippets/mica.xml" />
 </manifest>
