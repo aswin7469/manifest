@@ -9,7 +9,7 @@
           fetch="https://gitlab.com/" />
 
   <!-- Build Repos -->
-  <project path="build/make" name="build_make" remote="mica" >
+  <project path="build/make" name="build" remote="mica" >
    <copyfile src="core/root.mk" dest="Makefile" />
    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -31,7 +31,8 @@
 
   <!-- Hardware repos -->
 
-  <!-- CodeAurora additions -->
+  <!-- Mica additions -->
+  <project path="vendor/mica" name="vendor_mica" remote="mica" />
 
   <!-- Packages Repos -->
 

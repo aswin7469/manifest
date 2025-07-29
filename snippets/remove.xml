@@ -12,7 +12,9 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
-  <!-- external repos -->
+  <!-- build repos -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
 
   <!-- General repos -->
 
