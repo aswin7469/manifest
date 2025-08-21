@@ -16,6 +16,10 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
 
+  <!-- External repos -->
+  <remove-project name="platform/external/bouncycastle" />
+  <remove-project name="platform/external/tinycompress" />
+
   <!-- General repos -->
   <remove-project name="platform/bionic" />
 
@@ -31,9 +35,11 @@
 
   <!-- Packages Repos -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
 
 </manifest>
